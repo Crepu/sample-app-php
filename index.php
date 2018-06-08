@@ -1,11 +1,11 @@
 <?php
-include '../config/db.php';
+include '/config/db.php';
 echo "$hostname_DB<br>";
 echo "$username_DB<br>";
 echo "$database_DB<br>";
 echo "--";
 
-$directorio = $directorio."../config/";
+$directorio = $directorio."/config/";
 $ficheros1  = scandir($directorio);
 print_r($ficheros1);
 echo "--";
