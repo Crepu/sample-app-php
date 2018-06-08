@@ -1,5 +1,5 @@
 <?php
-include '../config/db.php';
+include '../shared/db.php';
 echo "$hostname_DB<br>";
 echo "$username_DB<br>";
 echo "$database_DB<br>";
