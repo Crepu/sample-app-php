@@ -11,21 +11,22 @@
 
 <body>
 <div class="container">
-<div id="header">
-<div id="logo"><img width="300px" src="../img/logo-sonda.png" /></div>
+<div class="row">
+	<div id="col-sm-2">
+		<img width="300px" src="../img/logo-sonda.png" /></div>
+	</div>
 </div>
-
-<div class="code_container">
-<div class="code">
+<div class="row">
+<div class="col-sm-10 col-sm-offset-1">
 <ul class="nav nav-pills">
   <li class="nav-item">
-    <a class="nav-link active" href="/">App Server</a>
+    <a class="nav-link" href="/">App Server</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="/dbserver">DB Server</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/lbserver">LB Server</a>
+    <a class="nav-link active" href="/lbserver">LB Server</a>
   </li>
 </ul>
 </div>

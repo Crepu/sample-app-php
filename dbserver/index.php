@@ -19,10 +19,10 @@
 <div class="code">
 <ul class="nav nav-pills">
   <li class="nav-item">
-    <a class="nav-link active" href="/">App Server</a>
+    <a class="nav-link" href="/">App Server</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/dbserver">DB Server</a>
+    <a class="nav-link active" href="/dbserver">DB Server</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="/lbserver">LB Server</a>
