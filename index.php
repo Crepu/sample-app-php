@@ -3,14 +3,16 @@ include '../config/db.php';
 echo "$hostname_DB<br>";
 echo "$username_DB<br>";
 echo "$database_DB<br>";
+echo "--";
 
-$directorio = "/usr/local/www/sites/$APPLICATION_NAME/current/";
+$directorio = "/usr/local/www/sites/"
 $ficheros1  = scandir($directorio);
 print_r($ficheros1);
-
-$directorio = $directorio."config/";
+echo "--";
+$directorio = $directorio."../config/";
 $ficheros1  = scandir($directorio);
 print_r($ficheros1);
+echo "--";
 
 echo "$directorio<br>";
 
