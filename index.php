@@ -1,6 +1,8 @@
 <?php
 include '../config/db.php';
-
+echo "$hostname_DB<br>";
+echo "$username_DB<br>";
+echo "$database_DB<br>";
 mysql_connect($hostname_DB,$username_DB,$password_DB);
 @mysql_select_db($database_DB) or die( "Unable to select database");
 $query="SELECT * FROM app_test";
