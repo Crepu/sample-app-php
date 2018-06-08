@@ -10,9 +10,9 @@
 </head>
 
 <body>
-
+<div class="container">
 <div id="header">
-<div id="logo"><img width="100px" src="img/logo-sonda.png" /></div>
+<div id="logo"><img width="100px" src="../img/logo-sonda.png" /></div>
 </div>
 
 <div class="code_container">
@@ -48,6 +48,6 @@ $i++;
 }
 ?>
 </div>
-
+</div>
 </body>
 </html>
