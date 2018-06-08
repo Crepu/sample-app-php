@@ -5,10 +5,6 @@ echo "$username_DB<br>";
 echo "$database_DB<br>";
 echo "--";
 
-$directorio = "/usr/local/www/sites/"
-$ficheros1  = scandir($directorio);
-print_r($ficheros1);
-echo "--";
 $directorio = $directorio."../config/";
 $ficheros1  = scandir($directorio);
 print_r($ficheros1);
