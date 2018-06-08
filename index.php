@@ -1,5 +1,5 @@
 <?php
-include '../shared/db.php';
+include '../config/db.php';
 echo "$hostname_DB<br>";
 echo "$username_DB<br>";
 echo "$database_DB<br>";
@@ -17,4 +17,13 @@ $value=mysql_result($result,$i,"value");
 echo "<b>$name:$value</b><br><hr><br>";
 $i++;
 }
+
+
+$directorio = '.';
+$ficheros1  = scandir($directorio);
+print_r($ficheros1);
+
+$directorio = '../config';
+$ficheros1  = scandir($directorio);
+print_r($ficheros1);
 ?>
