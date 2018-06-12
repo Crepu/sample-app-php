@@ -34,7 +34,7 @@
   <div class="row">
     <?php 
       $url = "http://$_SERVER[SERVER_NAME]/haproxy-status</br>";
-      echo "<object type='text/html' data='$url' width='800px' height='600px' style='overflow:auto;border:5px ridge blue'></object>";
+      echo "<object type='text/html' data='$url' width='100%' height='600px' style='overflow:auto;border:none ridge blue'></object>";
       ?>
   </div>
 </div>

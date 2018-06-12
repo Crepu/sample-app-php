@@ -41,7 +41,7 @@ CREATE TABLE `app_test` (
 
 LOCK TABLES `app_test` WRITE;
 /*!40000 ALTER TABLE `app_test` DISABLE KEYS */;
-INSERT INTO `app_test` VALUES (1,'app_test42','Database lul'),(2,'app_test420','Weed db'),(3,'app_test33','We are good at the refugie');
+INSERT INTO `app_test` VALUES (1,'app_test1','I am in db'),(2,'app_test2','I am in db'),(3,'app_test3','I am in db');
 /*!40000 ALTER TABLE `app_test` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
