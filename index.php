@@ -13,46 +13,29 @@
 <div class="container">
   <div class="row mt-sm-3">
     <div id="col-sm-2">
-      <img width="300px" src="../img/logo-sonda.png" />
+      <img width="300px" src="img/logo-sonda.png" />
     </div>
   </div>
   <div class="row mb-sm-2">
     <div class="col-sm-12">
       <ul class="nav nav-pills">
         <li class="nav-item">
-          <a class="nav-link" href="..">App Server</a>
+          <a class="nav-link active" href=".">App Server</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href=".">DB Server</a>
+          <a class="nav-link" href="dbserver">DB Server</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../lbserver">LB Server</a>
+          <a class="nav-link" href="lbserver">LB Server</a>
         </li>
       </ul>
     </div>
   </div>
-  <div class="row">
-    <div class="col-sm-12">
-    <?php
-    include '../config/db.php';
-
-    mysql_connect($hostname_DB,$username_DB,$password_DB);
-    mysql_select_db($database_DB) or die( "Unable to select database");
-    $query="SELECT * FROM app_test";
-    $result=mysql_query($query);
-    $num=mysql_numrows($result);
-    mysql_close();
-    echo "<b><center> Database($database_DB) Output From Host($hostname_DB)</center></b><br><br>";
-    $i=0;
-    while ($i < $num) {
-    $name=mysql_result($result,$i,"name");
-    $value=mysql_result($result,$i,"value");
-    echo "<b>$name:$value</b><br><hr><br>";
-    $i++;
-    }
-    ?>
-    </div>
+<div class="row">
+  <div class="col-sm-12">
+    <?php echo phpinfo(); ?>
   </div>
+</div>
 </div>
 </body>
 </html>
