@@ -32,8 +32,10 @@
     </div>
   </div>
   <div class="row">
-    <object type="text/html" data="http://137.135.126.29/haproxy-status" width="800px" height="600px" style="overflow:auto;border:5px ridge blue">
-    </object>
+    <?php 
+      $url = "http://"+$_SERVER['SERVER_ADDR']+"/haproxy-status";
+      echo "<object type='text/html' data='$url' width='800px' height='600px' style='overflow:auto;border:5px ridge blue'></object>";
+      ?>
   </div>
 </div>
 </body>
