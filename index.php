@@ -16,21 +16,6 @@
       <img width="300px" src="img/logo-sonda.png" />
     </div>
   </div>
-  <div class="row mb-sm-2">
-    <div class="col-sm-12">
-      <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a class="nav-link active" href=".">App Server</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="dbserver">DB Server</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="lbserver">LB Server</a>
-        </li>
-      </ul>
-    </div>
-  </div>
 <div class="row">
   <div class="col-sm-12">
     <?php echo phpinfo(); ?>
