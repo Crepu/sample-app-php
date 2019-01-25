@@ -15,7 +15,8 @@
     <div id="col-sm-2">
       <img width="300px" src="img/logo-sonda.png" />
     </div>
-    <div class="row mb-sm-2">
+  </div>
+  <div class="row mb-sm-2">
     <div class="col-sm-12">
       <ul class="nav nav-pills">
         <li class="nav-item">
@@ -26,7 +27,6 @@
         </li>
       </ul>
     </div>
-  </div>
   </div>
 <div class="row">
   <div class="col-sm-12">

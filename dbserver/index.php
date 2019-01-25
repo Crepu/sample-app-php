@@ -28,18 +28,20 @@
       </ul>
     </div>
   </div>
+  <form action="add.php" method="post">
   <div class="row">
-    <form action="add.php">
     <div class="col-sm-4">
-        <input type="text" name="name">
+        Nombre: <input type="text" name="name">
     </div>
     <div class="col-sm-4">
-        <input type="text" name="value">
+        Valor: <input type="text" name="value">
     </div>
     <div class="col-sm-4">
-        <input type="submit" name="Enviar" value="Enviar">
+        <input type="submit" name="Enviar">
     </div>
-    </form>
+  </div>
+  </form>
+  <div class="row">
     <div class="col-sm-12">
     <?php
     include '../config/db.php';
