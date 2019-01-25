@@ -25,13 +25,21 @@
         <li class="nav-item">
           <a class="nav-link active" href=".">DB Server</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../lbserver">LB Server</a>
-        </li>
       </ul>
     </div>
   </div>
   <div class="row">
+    <form action="add.php">
+    <div class="col-sm-4">
+        <input type="text" name="name">
+    </div>
+    <div class="col-sm-4">
+        <input type="text" name="value">
+    </div>
+    <div class="col-sm-4">
+        <input type="submit" name="Enviar" value="Enviar">
+    </div>
+    </form>
     <div class="col-sm-12">
     <?php
     include '../config/db.php';
@@ -42,7 +50,7 @@
     $result=mysql_query($query);
     $num=mysql_numrows($result);
     mysql_close();
-    echo "<b><center> Database($database_DB) Output From Host($hostname_DB)</center></b><br><br>";
+    echo "<b><center> Database ($database_DB) Output From Host ($hostname_DB)</center></b><br><br>";
     $i=0;
     while ($i < $num) {
     $name=mysql_result($result,$i,"name");
