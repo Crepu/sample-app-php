@@ -1,3 +1,14 @@
+-- MySQL dump 10.11
+--
+-- Host: localhost    Database: app_test
+-- ------------------------------------------------------
+-- Server version	5.0.45-log
+
+
+CREATE DATABASE /*!32312 IF NOT EXISTS*/ `pocdb` /*!40100 DEFAULT CHARACTER SET latin1 */;
+
+USE `pocdb`;
+
 --
 -- Table structure for table `app_test`
 --
