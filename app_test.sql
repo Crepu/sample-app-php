@@ -2,10 +2,10 @@
 --
 -- Host: localhost    Database: app_test
 -- ------------------------------------------------------
--- Server version	5.0.45-log
+-- Server version       5.0.45-log
 
 
-CREATE DATABASE /*!32312 IF NOT EXISTS*/ `pocdb` /*!40100 DEFAULT CHARACTER SET latin1 */;
+--CREATE DATABASE /*!32312 IF NOT EXISTS*/ `pocdb` /*!40100 DEFAULT CHARACTER SET latin1 */;
 
 USE `pocdb`;
 
@@ -25,8 +25,10 @@ CREATE TABLE `app_test` (
 -- Dumping data for table `app_test`
 --
 
-LOCK TABLES `app_test` WRITE;
-INSERT INTO `app_test` VALUES (1,'app_test1','I am in db'),(2,'app_test2','I am in db'),(3,'app_test3','I am in db');
-UNLOCK TABLES;
+--LOCK TABLES `app_test` WRITE;
+INSERT INTO `app_test` VALUES (1,'app_test1','Entrada 1'),(2,'app_test2','Entrada 2'),(3,'app_test3','Entrada 3');
+--UNLOCK TABLES;
 
 -- Dump completed on 2010-01-17  4:16:47
+
+
