@@ -26,7 +26,7 @@ CREATE TABLE `app_test` (
 --
 
 -- LOCK TABLES `app_test` WRITE;
-INSERT INTO `app_test` VALUES (1,'app_test1','I am in db'),(2,'app_test2','I am in db'),(3,'app_test3','I am in db');
+INSERT INTO `app_test` VALUES (1,'app_test1','Entrada 1'),(2,'app_test2','Entrada 2'),(3,'app_test3','Entrada 33');
 -- UNLOCK TABLES;
 
 -- Dump completed on 2010-01-17  4:16:47
